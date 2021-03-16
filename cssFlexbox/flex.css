@@ -1,0 +1,30 @@
+.row{
+    display: flex;
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    /* text-align: center; */
+    align-items: flex-start;
+}
+.col{
+    background-color: bisque;
+    border: 2px solid green;
+    padding: 10px;
+    margin: 40px 20px; 
+    /* 0-top bottom and 20-left right */
+}
+.col-1{
+    width: 20%;
+    color: white;
+    background-image: url("https://earthsky.org/upl/2018/12/comet-wirtanen-Jack-Fusco-dec-2018-Anza-Borrego-desert-CA-e1544613895713.jpg");
+}
+.col-2{
+    width: 40%;
+    background-image: url('https://www.w3schools.com/w3css/img_lights.jpg');
+    color: white;
+}
+.col-3{
+    width: 20%;
+    color: black;
+    background-image: url("https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png");
+}
